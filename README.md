@@ -1,2 +1,2 @@
 # OnlineJudge
-我在各大OJ做过的题，包括但不限于codejam, uvaoj, poj, hdoj, hihiocoder, seuoj...
+我在各大OJ做过的一些题
