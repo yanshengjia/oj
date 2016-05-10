@@ -24,13 +24,15 @@
 
 using namespace std;
 
-bool isPrimeNumber(int n)
+#define ll long long int
+
+bool isPrimeNumber(ll n)
 {
     if(n <= 1)  return false;
     else if(n == 2) return true;
     else
     {
-        for(int i=2; i*i<n; i++)
+        for(ll i=2; i*i<n; i++)
         {
             if(n%i == 0)    return false;
         }
@@ -39,12 +41,12 @@ bool isPrimeNumber(int n)
 }
 
 // 莫比乌斯函数
-int miu(int n)
+int miu(ll n)
 {
     int counter = 0;
     
     // 将 n 表示为 k 个质因子的乘积
-    for(int i=2; i<=n; i++)
+    for(ll i=2; i<=n; i++)
     {
         if(n%i == 0)    // i 是 n 的因子
         {
@@ -81,7 +83,7 @@ int main()
     cin.tie(0);
     #endif
 
-    int n;
+    ll n;
     cin>>n;
 
     cout<<miu(n);
