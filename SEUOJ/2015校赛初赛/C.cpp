@@ -1,4 +1,5 @@
-//SEUOJ
+// SEUOJ
+// Too young
 
 #include <stdio.h>
 
