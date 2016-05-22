@@ -1,4 +1,4 @@
-// oj #num name
+// SEUOJ #num name
 // description
 // created by Shengjia Yan
 // 2016年5月22日 下午1:25
