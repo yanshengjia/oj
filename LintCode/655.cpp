@@ -1,7 +1,8 @@
 // Author: Shengjia Yan
 // Date: 2017年7月30日
 // Email: sjyan@seu.edu.cn
-// Time Complexity: O(m+n) m与n分别为2个字符串的长度   Space Complexity: O(m+n)
+// Time Complexity: O(m+n) m与n分别为2个字符串的长度
+// Space Complexity: O(m+n)
 
 
 class Solution {

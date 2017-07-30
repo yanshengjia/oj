@@ -1,7 +1,8 @@
 // Author: Shengjia Yan
 // Date: 2017年7月1日
 // Email: sjyan@seu.edu.cn
-// Time Complexity: O(n^2)    Space Complexity: O(n)
+// Time Complexity: O(n^2)
+// Space Complexity: O(n)
 
 
 class Solution {

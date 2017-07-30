@@ -1,7 +1,8 @@
 // Author: Shengjia Yan
 // Date: 2017年7月19日
 // Email: sjyan@seu.edu.cn
-// Time Complexity: O(n.length())    Space Complexity: O(n.length())  这里的 n 指的是函数的参数 n
+// Time Complexity: O(n.length())
+// Space Complexity: O(n.length())  这里的 n 指的是函数的参数 n
 
 class Solution {
 public:

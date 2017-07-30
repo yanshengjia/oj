@@ -1,7 +1,8 @@
 // Author: Shengjia Yan
 // Date: 2017年7月30日
 // Email: sjyan@seu.edu.cn
-// Time Complexity: O(n) n为字符串key长度   Space Complexity: O(1)
+// Time Complexity: O(n) n为字符串key长度
+// Space Complexity: O(1)
 
 
 class Solution {

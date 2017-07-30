@@ -1,7 +1,8 @@
 // Author: Shengjia Yan
 // Date: 2017年7月18日
 // Email: sjyan@seu.edu.cn
-// Time Complexity: O(n)    Space Complexity: O(n)
+// Time Complexity: O(n)
+// Space Complexity: O(n)
 // 本题中的翻转实际上是字符串中的单词逆序一下，并不是将单词中的字符翻转，LintCode 的题意表达不明
 
 class Solution {

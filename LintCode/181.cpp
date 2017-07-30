@@ -1,7 +1,8 @@
 // Author: Shengjia Yan
 // Date: 2017年7月24日
 // Email: sjyan@seu.edu.cn
-// Time Complexity: O(n) n为a与b两数不同位的个数   Space Complexity: O(1)
+// Time Complexity: O(n) n为a与b两数不同位的个数
+// Space Complexity: O(1)
 
 
 class Solution {

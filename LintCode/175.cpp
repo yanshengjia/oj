@@ -1,7 +1,8 @@
 // Author: Shengjia Yan
 // Date: 2017年7月1日
 // Email: sjyan@seu.edu.cn
-// Time Complexity: O(logn)    Space Complexity: O(1)
+// Time Complexity: O(logn)
+// Space Complexity: O(1)
 
 
 /**

@@ -1,7 +1,8 @@
 // Author: Shengjia Yan
 // Date: 2017年7月7日
 // Email: sjyan@seu.edu.cn
-// Time Complexity: O(m+n)    Space Complexity: O(max(m, n))
+// Time Complexity: O(m+n)
+// Space Complexity: O(max(m, n))
 
 
 /**

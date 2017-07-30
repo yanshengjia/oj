@@ -1,7 +1,8 @@
 // Author: Shengjia Yan
 // Date: 2017年7月22日
 // Email: sjyan@seu.edu.cn
-// Time Complexity: O(n) n为链表长度   Space Complexity: O(1)
+// Time Complexity: O(n) n为链表长度
+// Space Complexity: O(1)
 
 
 /**
