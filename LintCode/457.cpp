@@ -3,6 +3,7 @@
 // Email: sjyan@seu.edu.cn
 // Time Complexity: O(logn)
 // Space Complexity: O(1)
+// 经典二分查找问题
 
 
 class Solution {
@@ -15,39 +16,22 @@ public:
     int findPosition(vector<int>& A, int target) {
         // Write your code here
         int size = A.size();
-        int mid = size / 2;
-        int index = mid;
-        bool flag = false;
+        int low = 0, high = size-1, mid = 0;
         
-        if (size == 0)  return -1;
-        
-        if (A[mid] == target) {
-            flag = true;
-            return index;
-        }
-        else if (A[mid] > target) {
-            // <-
-            index--;
-            while (index >= 0) {
-                if (A[index] == target) {
-                    flag = true;
-                    return index;
-                }
-                index--;
-            } 
-        }
-        else {
-            // ->
-            index++;
-            while (index < size) {
-                if (A[index] == target) {
-                    flag = true;
-                    return index;
-                }
-                index++;
-            } 
+        while (low <= high) {
+            mid = (low + high) / 2;
+            
+            if (target == A[mid]) {
+                return mid;
+            }
+            else if (target > A[mid]){
+                low = mid + 1;
+            }
+            else {
+                high = mid -1;
+            }
         }
         
-        if (!flag)  return -1;
+        return -1;
     }
 };
