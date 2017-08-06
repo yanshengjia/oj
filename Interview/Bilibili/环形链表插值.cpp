@@ -1,7 +1,4 @@
-/*
-一个环状有序链表，有头指针，里面存储的元素按升序排列(除去环的交接点，即头部元素和尾部元素)。使用C/C++实现一个算法，将新元素插入到当前链表中，不破坏原有链表的各种约束。
-Created by sjyan @2017-06-23
-*/
+// Created by sjyan @2017-06-23
 
 #include <iostream>
 using namespace std;
