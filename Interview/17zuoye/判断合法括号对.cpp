@@ -45,7 +45,7 @@ bool remove_bracker(string &str) {
             cache.push(str[i]);
         }
         else {
-            if (cache.empty() || isMatch(cache.top(), str[i])) {
+            if (cache.empty() || !isMatch(cache.top(), str[i])) {
                 return false;
             }
             
