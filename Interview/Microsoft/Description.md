@@ -16,3 +16,12 @@ public:
 };
 ```
 
+***
+
+## 判断链表是否有环
+
+Given a linked list, determine if it has a cycle in it.
+
+## 寻找最大的k个数
+
+Seek the greatest K elements among an unordered array.
